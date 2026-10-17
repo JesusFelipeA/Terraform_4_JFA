@@ -1,0 +1,10 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfplan
+# Datos sensibles (subscription_id, llaves)
+terraform.tfvars
+*.pem
+*.key
